@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/logo.webp">
     <title>RC-Fitness</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 
 </head>
@@ -23,42 +23,60 @@
                 <a href="contact.html" class="txt">Contact</a>
             </div>
         </nav>
+
+
+
     </header>
     <div class="container">
         <div class="welcome">
             <h1>Welcome to RC Fitness</h1>
         </div>
+        
+<div class="main-container">
+            <div class="main">
+                <h1>Train Hard. Stay Strong</h1>
+                <p><i class="fa-solid fa-arrow-right" id="inx-arrow"></i>A dedicated space for strength and fitness.
+                </p>
+                <p><i class="fa-solid fa-arrow-right" id="inx-arrow"></i>Train with focus, discipline, and proper form.
+                </p>
+                <p><i class="fa-solid fa-arrow-right" id="inx-arrow"></i>Well-equipped gym for all fitness levels.</p>
+                <p><i class="fa-solid fa-arrow-right" id="inx-arrow"></i>Commit today and see real progress.</p>
+                <a href="program.html"><button class="get-btn"> GET STARTED <i
+                            class="fa-solid fa-arrow-right"></i></button></a>
+            </div>
+         <div>
+            <div class="bmi">
+                <h2>BMI Calculator</h2>
 
+                <input type="number" id="height" placeholder="Enter height (cm)">
+                <input type="number" id="weight" placeholder="Enter weight (kg)">
 
-        <div class="main">
-            <h1>Train Hard. Stay Strong</h1>
-            <p><i class="fa-solid fa-arrow-right" id="inx-arrow"></i>A dedicated space f or strength and fitness.</p>
-            <p><i class="fa-solid fa-arrow-right" id="inx-arrow"></i>Train with focus, discipline, and proper form.</p>
-            <p><i class="fa-solid fa-arrow-right" id="inx-arrow"></i>Well-equipped gym for all fitness levels.</p>
-            <p><i class="fa-solid fa-arrow-right" id="inx-arrow"></i>Commit today and see real progress.</p>
-            <a href="program.html"><button class="get-btn"> GET STARTED <i
-                        class="fa-solid fa-arrow-right"></i></button></a>
+                <button onclick="calculateBMI()">Calculate BMI</button>
+
+                <h3 id="result"></h3>
+            </div>
+            </div>
         </div>
-
     </div>
+
     <footer class="site-footer">
 
         <div class="footer-links">
             <h4>Quick Links</h4>
             <a href="index.html">Home</a>
             <a href="program.html">Programs</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
         </div>
 
         <div class="footer-contact">
             <h4>Contact</h4>
-            <p><i class="fa-solid fa-phone"></i> 987654321</p>
+            <p><i class="fa-solid fa-phone"></i> 9876543210</p>
             <p><i class="fa-solid fa-envelope"></i> rc_fitness@gmail.com</p>
             <p><i class="fa-solid fa-location-dot"></i> Rasipuram, Tamil Nadu</p>
         </div>
         <address class="footer-location">
-            <h4>Visite us</h4>
+            <h4>Visit us</h4>
             <p>15/66, Ramalinga Nagar,</p>
             <p>Gurusamipalayam,</p>
             <p>Rasipuram,</p>
